@@ -50,7 +50,9 @@
         <section class="
             pt-25
             inline-block
-            items-center                ">
+            items-center 
+            md:grid
+            md:place-items-center               ">
             <h3 class="font-extrabold text-4xl text-center pb-5">The Legal Practice Area</h3>
             <p class="text-center pb-15 text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
             <div class="grid
@@ -58,7 +60,6 @@
             md:grid-cols-2 
             sm:grid-cols-1
             place-items-center
-            md:place-items-center 
             gap-4">
                 <div class="w-[300px] border text-center p-7">
                     <img class="inline-block " src="images/business.png" alt="">
@@ -102,30 +103,39 @@
         <section>
             <h3 class="font-extrabold text-4xl text-center pb-5 pt-25">What Our Client Say</h3>
             <p class="text-center text-[#707070]">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-            <div class="h-[400px] bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('/images/banner.png')] bg-cover bg-center mt-8 rounded-lg  text-center text-white">
+            <div class="h-[400px] sm:h-auto bg-[linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),url('/images/banner.png')] bg-cover bg-center mt-8 rounded-lg  text-center text-white">
                 <img class="w-40 rounded-full inline-block pt-10" src="images/nayem-ahmmed.png" alt="">
                 <h4 class="font-extrabold text-2xl pt-4">Nayem Ahmmed</h4>
                 <h6 class="text-[20px] pt-1">Front-End Developer</h6>
-                <p class="px-20 pt-3 ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                <p class="lg:px-20 md:px-10 sm:5 pt-3 ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
             </div>
         </section>
 
         <section>
             <h3 class="font-extrabold text-3xl pt-25 mb-3 text-center">Frequently Asked Any Questions</h3>
             <p class="text-center">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
-            <div class="flex gap-5">
+            <div class="flex
+                        flex-wrap
+                        justify-start
+                        sm:justify-center
+                        gap-5">
                 <div>
-                    <div class="p-4 mt-10 rounded-2xl w-[540px] bg-[#F3F3F3]">
+                    <div class="
+                    p-4 mt-10 
+                    rounded-2xl 
+                    lg:w-[540px] 
+                    bg-[#F3F3F3]
+                    ">
                     <h5 class="font-extrabold text-2xl">1. Are application fee waivers available?</h5>
                     <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 </div>
-                <div class="p-4 mt-10 w-[540px] rounded-2xl bg-[#F3F3F3]">
+                <div class="p-4 mt-10 lg:w-[540px] rounded-2xl bg-[#F3F3F3]">
                     <h5 class="font-extrabold text-2xl">1. Are application fee waivers available?</h5>
                 </div>
-                <div class="p-4 mt-10 w-[540px] rounded-2xl bg-[#F3F3F3]">
+                <div class="p-4 mt-10 lg:w-[540px] rounded-2xl bg-[#F3F3F3]">
                     <h5 class="font-extrabold text-2xl">1. Are application fee waivers available?</h5>
                 </div>
-                 <div class="p-4 mt-10 w-[540px] rounded-2xl bg-[#F3F3F3]">
+                 <div class="p-4 mt-10 lg:w-[540px] rounded-2xl bg-[#F3F3F3]">
                     <h5 class="font-extrabold text-2xl">1. Are application fee waivers available?</h5>
                 </div>
             </div>
